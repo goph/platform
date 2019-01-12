@@ -1,0 +1,9 @@
+linters:
+    enable-all: true
+    disable:
+        - maligned
+        - dupl
+
+linters-settings:
+    golint:
+        min-confidence: 0.1
